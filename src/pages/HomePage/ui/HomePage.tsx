@@ -1,27 +1,17 @@
-import Link from "next/link"
-
-import cls from "./HomePage.module.scss"
+'use client'
 
 const HomePage = () => {
+
 	return (
-		<div className={cls.homepage}>
-			<p className={cls.font}>
-				Hello from{" "}
-				<Link
-					href="https://github.com/yunglocokid"
-					target="_blank"
-					className={cls.link}
+		<div className={'flex flex-col h-screen items-center justify-center'}>
+			<div className={'flex justify-center group'}>
+				<p
+					className={'text-2xl shadow-xl p-4 rounded-md duration-300 cursor-pointer group-hover:animate-bounce'}
+					draggable
 				>
-					yunglocokid
-				</Link>
-			</p>
-			<pre className={cls.hint} data-testid="hint-code">
-				You can edit <span className={cls.path}>src/pages/HomePage</span> to
-				start {"<3"}!<br />
-				<small className={cls.testHint}>
-					You can also test your application using Jest :D. Try it!
-				</small>
-			</pre>
+					Hello from Workspace!
+				</p>
+			</div>
 		</div>
 	)
 }
