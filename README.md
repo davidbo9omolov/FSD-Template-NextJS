@@ -21,8 +21,6 @@ for example to "pagesLayer" and then delete the pages folder from the project ro
 
 | Folder       | Description                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------------------- |
-| app          | Next App folder for [App Routing](https://nextjs.org/docs/app/building-your-application/routing#the-app-router) |
-| pages \*     | Next Pages folder for [Pages Routing](https://nextjs.org/docs/pages)                                            |
 | public       | Public files                                                                                                    |
 | src/app      | App FSD Layer                                                                                                   |
 | src/pages    | Pages FSD Layer                                                                                                 |
@@ -52,10 +50,18 @@ del .\public\.gitkeep
 
 This template uses such development assistants
 
+- Next.js
+- Feature-Sliced Design (FSD)
 - Eslint
 - Prettier
 - Stylelint
 - Jest
+- Husky
+- Commitlint
+- Zustand
+- Shadcn UI
+- Tailwind CSS
+
 
 If you don't need it, you can disable it at any time by removing the
 dependency from your _package.json_ and _.\*rc_ file.
